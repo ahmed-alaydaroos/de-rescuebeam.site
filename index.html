@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DE-RescueBeam | ATRC Directed Energy Challenge</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            margin: 0;
+            padding: 40px;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: auto;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+        
+        h1 {
+            color: #0b3d91;
+        }
+        
+        h2 {
+            color: #0b3d91;
+            margin-top: 30px;
+        }
+        
+        .button {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            padding: 12px 18px;
+            background: #0b3d91;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        
+        .button:hover {
+            background: #062b66;
+        }
+        
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>DE-RescueBeam</h1>
+        <p><strong>Directed Energy Wireless Power System</strong></p>
+        <p>ATRC School Program – Directed Energy Challenge</p>
+
+        <h2>Project Overview</h2>
+        <p>
+            DE-RescueBeam is a humanitarian application of directed energy technology. The system wirelessly transmits energy from a base station to rescue drones and emergency sensors in disaster zones.
+        </p>
+
+        <p>
+            The goal is to extend mission duration, reduce battery limitations, and improve rescue efficiency while maintaining strict safety controls.
+        </p>
+
+        <h2>Prototype Description</h2>
+        <p>
+            The Python simulation demonstrates:
+        </p>
+
+        <ul>
+            <li>Battery drain over time</li>
+            <li>Moving drones and stationary sensors</li>
+            <li>Smart target selection (lowest battery priority)</li>
+            <li>Beam range limitation</li>
+            <li>Human safety exclusion zone</li>
+        </ul>
+
+        <h2>Project Files</h2>
+
+        <a class="button" href="de_rescue.py" download>
+Download Python Prototype
+</a>
+
+        <a class="button" href="README.md">
+View README Documentation
+</a>
+
+        <h2>How to Run the Prototype</h2>
+
+        <pre>
+pip install numpy matplotlib
+python de_rescuebeam.py
+</pre>
+
+        <footer>
+            DE-RescueBeam | Directed Energy Challenge Submission
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
